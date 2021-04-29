@@ -1,9 +1,15 @@
+#!/usr/bin/env python3
+
+# input: 
+#   - a class name of a td element
+# return:
+#   - a list of name day names
+
 from bs4 import BeautifulSoup
 import urllib.request
 import re 
 
-
-def namsdagsNamn(className):
+def namsdagsNamn(className = "today"):
     # Read url and parse data
     webUrl = urllib.request.urlopen('https://www.kalender.se/')
     data = webUrl.read()
@@ -24,11 +30,9 @@ def namsdagsNamn(className):
     
 def main():
     className = "monthreg"
-    className = "today"
     namnsdagsbarn = namsdagsNamn(className)
     print(namnsdagsbarn)
-
-    
+  
 if __name__ == "__main__":
     main()
 
