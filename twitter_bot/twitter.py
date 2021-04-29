@@ -62,29 +62,3 @@ if __name__ == "__main__":
     main()
 
 
-# Authenticate to Twitter
-
-
-
-# print(credentials["consumer_key"])
-
-# consumer_key = "OXlJnOGAoIixCqHLUwERrHhsS"
-# consumer_secret = "1mnUopIyWnqCPOHrNhyWknieKxJWyH3MaNLpm4BiwjYo0NFYEX"
-
-# access_token = "1387735757260001288-5W7yfVYJE28nix5M9MNmBJe44rsNct"
-# access_token_secret = "u8KihgFHu6IBTAKy87UUzR9IUZ4lomawoadCYtNxB33lA"
-
-
-
-# auth = tweepy.OAuthHandler(consumer_key, 
-#     consumer_secret)
-# auth.set_access_token(access_token, 
-#     access_token_secret)
-
-# api = tweepy.API(auth)
-
-# try:
-#     api.verify_credentials()
-#     print("Authentication OK")
-# except:
-#     print("Error during authentication")
