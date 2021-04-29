@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Karl Beckman
+# kbeckman@kth.se
+
 # input: 
 #   - a class name of a td element
 # return:
