@@ -45,6 +45,8 @@ class Twetter:
         if self.__apiOK and len(self.__tweetString) > 0:
             self.__api.update_status(self.__tweetString)
             print("I just tweeted!")
+        else:
+            print("Couldn't tweet.")
 
 
 def main():
