@@ -1,4 +1,8 @@
 #!/usr/bin/env python3 
+#
+# Karl Beckman
+# kbeckman@kth.se
+#
 # Lägg ett o efter varje konsonant och sedan samma konsonant igen
 # t.ex. Karl = Kokarorlol
 # input: a string 
