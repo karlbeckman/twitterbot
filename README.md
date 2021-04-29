@@ -1,1 +1,1 @@
-# twitterbot
+# A Twitter Bot Using Tweepy
