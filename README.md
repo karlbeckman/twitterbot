@@ -1,1 +1,2 @@
-# A Twitter Bot Using Tweepy
+# Twitterbot
+En twitterbot som skriver ut vem som har namnsdag på rövarspråket... Alltid spännande att veta.
